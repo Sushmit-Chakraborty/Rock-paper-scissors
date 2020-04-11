@@ -54,7 +54,7 @@ for(i=0;i<roundNumber;i++){
 
     chosen = [player1,player2,player3,player4];
     var round_header = document.createElement('h2');
-    var round_number = document.createTextNode("Round"+(i+1));
+    var round_number = document.createTextNode("Round "+(i+1));
     round_header.appendChild(round_number);
     body.appendChild(round_header);
     tableCreate();
